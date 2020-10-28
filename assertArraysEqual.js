@@ -20,4 +20,5 @@ const eqArrays = function(a,b) {
     }
 }  
 
-console.log(eqArrays([1,1,1],[1,1,1]));
+//console.log(eqArrays([1,1,1],[1,1,1]));
+console.log(assertEqual(eqArrays([1,1,1],[1,1,1]), true));
